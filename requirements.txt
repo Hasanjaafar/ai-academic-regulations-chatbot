@@ -18,7 +18,6 @@ httpx==0.27.2
 # Utilities
 tqdm==4.66.4
 pandas==2.2.2
-matplotlib>=3.8.0
 
 # Optional (for Jupyter notebooks)
 ipykernel==6.29.5
