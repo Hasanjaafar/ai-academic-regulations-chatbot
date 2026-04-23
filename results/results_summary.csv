@@ -1,0 +1,7 @@
+experiment_name,config,temperature,top_k,prompt_style,prompt_label,n_rows,n_scored,mean_accuracy,std_accuracy,mean_clarity,std_clarity,mean_groundedness,std_groundedness
+exp01,0.2 / k=3 (Prompt A),0.2,3,strict,A,18,18,2.5,0.5145,2.9444,0.2357,2.5,0.6183
+exp02,0.2 / k=5 (Prompt A),0.2,5,strict,A,18,18,2.7222,0.4609,3.0,0.0,2.7778,0.4278
+exp03,0.5 / k=5 (Prompt A),0.5,5,strict,A,18,18,2.7222,0.4609,3.0,0.0,2.7778,0.4278
+exp04,0.8 / k=5 (Prompt A),0.8,5,strict,A,18,18,2.6667,0.4851,3.0,0.0,2.5556,0.5113
+exp05,0.5 / k=3 (Prompt B),0.5,3,semi_flexible,B,18,18,2.5,0.5145,2.9444,0.2357,2.5,0.6183
+exp06,0.5 / k=7 (Prompt C),0.5,7,loose,C,18,18,2.6667,0.4851,3.0,0.0,2.5,0.5145

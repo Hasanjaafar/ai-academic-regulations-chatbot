@@ -1,0 +1,20 @@
+[
+  {"id": "q01", "question": "What happens if coursework is submitted within 24 hours after the deadline?"},
+  {"id": "q02", "question": "What is the penalty if coursework is submitted more than 24 hours late without an extension?"},
+  {"id": "q03", "question": "How do Progression and Award Boards relate to module results and awards?"},
+  {"id": "q04", "question": "What English language qualifications does the University accept for admission?"},
+  {"id": "q05", "question": "What is Recognition of Prior Certificated Learning (RPCL)?"},
+  {"id": "q06", "question": "How is Recognition of Prior Experiential Learning (RPEL) defined?"},
+  {"id": "q07", "question": "What are the principles of assessment in relation to intended learning outcomes?"},
+  {"id": "q08", "question": "What happens if a student arrives late to an examination?"},
+  {"id": "q09", "question": "When can a student leave the examination room during an exam?"},
+  {"id": "q10", "question": "What is the process for mitigating circumstances and academic appeals after a board decision?"},
+  {"id": "q11", "question": "What is the role of external examiners in progression and award?"},
+  {"id": "q12", "question": "How does the University treat plagiarism and academic misconduct penalties?"},
+  {"id": "q13", "question": "Can students get an extension for coursework deadlines?"},
+  {"id": "q14", "question": "What rules apply to deferring an assessment?"},
+  {"id": "q15", "question": "What reasonable adjustments can disabled students receive for assessments?"},
+  {"id": "q16", "question": "How are provisional results and late submission penalties applied before boards?"},
+  {"id": "q17", "question": "What is the relationship between the Student Charter and academic regulations?"},
+  {"id": "q18", "question": "What attendance or participation rules apply to taught modules?"}
+]

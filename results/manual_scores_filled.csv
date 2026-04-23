@@ -1,0 +1,109 @@
+experiment_name,temperature,top_k,prompt_style,prompt_label,question_id,question,accuracy,clarity,groundedness,notes
+exp01,0.2,3,strict,A,q01,What happens if coursework is submitted within 24 hours after the deadline?,3.0,3.0,3.0,Correct late-submission rule; clause support is clear.
+exp01,0.2,3,strict,A,q02,What is the penalty if coursework is submitted more than 24 hours late without an extension?,3.0,3.0,3.0,Correct zero-mark penalty; well grounded in retrieved clauses.
+exp01,0.2,3,strict,A,q03,How do Progression and Award Boards relate to module results and awards?,2.0,3.0,1.0,"Reasonable answer, but retrieval is effectively empty so grounding is weak."
+exp01,0.2,3,strict,A,q04,What English language qualifications does the University accept for admission?,2.0,3.0,3.0,Accurate but incomplete; points to online list rather than naming qualifications.
+exp01,0.2,3,strict,A,q05,What is Recognition of Prior Certificated Learning (RPCL)?,3.0,3.0,3.0,Correct RPCL definition and clearly supported.
+exp01,0.2,3,strict,A,q06,How is Recognition of Prior Experiential Learning (RPEL) defined?,3.0,3.0,3.0,Correct RPEL definition and clearly supported.
+exp01,0.2,3,strict,A,q07,What are the principles of assessment in relation to intended learning outcomes?,2.0,2.0,2.0,Partially correct but too narrow for a broader principles question.
+exp01,0.2,3,strict,A,q08,What happens if a student arrives late to an examination?,3.0,3.0,3.0,Correct exam late-arrival rule with strong clause support.
+exp01,0.2,3,strict,A,q09,When can a student leave the examination room during an exam?,3.0,3.0,3.0,Correct exam-room exit conditions and well supported.
+exp01,0.2,3,strict,A,q10,What is the process for mitigating circumstances and academic appeals after a board decision?,2.0,3.0,2.0,"Mostly correct, but the process explanation is not fully complete."
+exp01,0.2,3,strict,A,q11,What is the role of external examiners in progression and award?,2.0,3.0,2.0,"Generally right, though slightly overextended from limited evidence."
+exp01,0.2,3,strict,A,q12,How does the University treat plagiarism and academic misconduct penalties?,2.0,3.0,2.0,"Broadly correct, but penalties are described less precisely than ideal."
+exp01,0.2,3,strict,A,q13,Can students get an extension for coursework deadlines?,3.0,3.0,3.0,Correct extension rule and strongly grounded.
+exp01,0.2,3,strict,A,q14,What rules apply to deferring an assessment?,3.0,3.0,3.0,Correct deferral summary and well grounded.
+exp01,0.2,3,strict,A,q15,What reasonable adjustments can disabled students receive for assessments?,2.0,3.0,2.0,"Reasonable answer, but the actual adjustments remain somewhat vague."
+exp01,0.2,3,strict,A,q16,How are provisional results and late submission penalties applied before boards?,3.0,3.0,3.0,Correct link between provisional results and late penalties.
+exp01,0.2,3,strict,A,q17,What is the relationship between the Student Charter and academic regulations?,2.0,3.0,2.0,"Safe answer, but the relationship is only partly established in the text."
+exp01,0.2,3,strict,A,q18,What attendance or participation rules apply to taught modules?,2.0,3.0,2.0,Cautious answer with partial support only.
+exp02,0.2,5,strict,A,q01,What happens if coursework is submitted within 24 hours after the deadline?,3.0,3.0,3.0,Correct and complete; extra retrieved context does not harm the answer.
+exp02,0.2,5,strict,A,q02,What is the penalty if coursework is submitted more than 24 hours late without an extension?,3.0,3.0,3.0,Correct zero-mark penalty with strong clause coverage.
+exp02,0.2,5,strict,A,q03,How do Progression and Award Boards relate to module results and awards?,3.0,3.0,3.0,Much stronger retrieval here; answer is accurate and well grounded.
+exp02,0.2,5,strict,A,q04,What English language qualifications does the University accept for admission?,2.0,3.0,3.0,"Still incomplete, but properly grounded in the regulation text."
+exp02,0.2,5,strict,A,q05,What is Recognition of Prior Certificated Learning (RPCL)?,3.0,3.0,3.0,Clear and correct RPCL definition.
+exp02,0.2,5,strict,A,q06,How is Recognition of Prior Experiential Learning (RPEL) defined?,3.0,3.0,3.0,Clear and correct RPEL definition.
+exp02,0.2,5,strict,A,q07,What are the principles of assessment in relation to intended learning outcomes?,3.0,3.0,3.0,Better coverage of assessment principles using multiple relevant clauses.
+exp02,0.2,5,strict,A,q08,What happens if a student arrives late to an examination?,3.0,3.0,3.0,Accurate and clearly supported.
+exp02,0.2,5,strict,A,q09,When can a student leave the examination room during an exam?,3.0,3.0,3.0,Accurate and clearly supported.
+exp02,0.2,5,strict,A,q10,What is the process for mitigating circumstances and academic appeals after a board decision?,3.0,3.0,3.0,More complete process explanation with stronger appeal-related support.
+exp02,0.2,5,strict,A,q11,What is the role of external examiners in progression and award?,2.0,3.0,2.0,"Reasonable answer, though still drawn mainly from one core clause."
+exp02,0.2,5,strict,A,q12,How does the University treat plagiarism and academic misconduct penalties?,3.0,3.0,2.0,"More complete than exp01, but penalty detail is still not fully specific."
+exp02,0.2,5,strict,A,q13,Can students get an extension for coursework deadlines?,3.0,3.0,3.0,Strong answer with good clause coverage.
+exp02,0.2,5,strict,A,q14,What rules apply to deferring an assessment?,3.0,3.0,3.0,Correct and well supported.
+exp02,0.2,5,strict,A,q15,What reasonable adjustments can disabled students receive for assessments?,2.0,3.0,3.0,"Answer is still somewhat general, but support is stronger in this run."
+exp02,0.2,5,strict,A,q16,How are provisional results and late submission penalties applied before boards?,3.0,3.0,3.0,Accurate answer with suitable supporting clauses.
+exp02,0.2,5,strict,A,q17,What is the relationship between the Student Charter and academic regulations?,2.0,3.0,2.0,Still cautious and only partly supported.
+exp02,0.2,5,strict,A,q18,What attendance or participation rules apply to taught modules?,2.0,3.0,2.0,"Question is broader than the available support, but answer stays cautious."
+exp03,0.5,5,strict,A,q01,What happens if coursework is submitted within 24 hours after the deadline?,3.0,3.0,3.0,Correct answer and clearly grounded.
+exp03,0.5,5,strict,A,q02,What is the penalty if coursework is submitted more than 24 hours late without an extension?,3.0,3.0,3.0,Correct and well supported.
+exp03,0.5,5,strict,A,q03,How do Progression and Award Boards relate to module results and awards?,3.0,3.0,3.0,Accurate explanation with good retrieval support.
+exp03,0.5,5,strict,A,q04,What English language qualifications does the University accept for admission?,2.0,3.0,3.0,Grounded but still incomplete regarding exact qualification names.
+exp03,0.5,5,strict,A,q05,What is Recognition of Prior Certificated Learning (RPCL)?,3.0,3.0,3.0,Correct and clearly grounded.
+exp03,0.5,5,strict,A,q06,How is Recognition of Prior Experiential Learning (RPEL) defined?,3.0,3.0,3.0,Correct and clearly grounded.
+exp03,0.5,5,strict,A,q07,What are the principles of assessment in relation to intended learning outcomes?,3.0,3.0,3.0,Good multi-clause answer covering assessment principles more fully.
+exp03,0.5,5,strict,A,q08,What happens if a student arrives late to an examination?,3.0,3.0,3.0,Correct and easy to follow.
+exp03,0.5,5,strict,A,q09,When can a student leave the examination room during an exam?,3.0,3.0,3.0,Correct and easy to follow.
+exp03,0.5,5,strict,A,q10,What is the process for mitigating circumstances and academic appeals after a board decision?,3.0,3.0,3.0,Well-structured process explanation with adequate support.
+exp03,0.5,5,strict,A,q11,What is the role of external examiners in progression and award?,2.0,3.0,2.0,"Reasonable summary, but evidence base is still somewhat limited."
+exp03,0.5,5,strict,A,q12,How does the University treat plagiarism and academic misconduct penalties?,3.0,3.0,2.0,"Clearer explanation of outcomes, though exact penalty detail remains limited."
+exp03,0.5,5,strict,A,q13,Can students get an extension for coursework deadlines?,3.0,3.0,3.0,Accurate and strongly grounded.
+exp03,0.5,5,strict,A,q14,What rules apply to deferring an assessment?,3.0,3.0,3.0,Accurate and strongly grounded.
+exp03,0.5,5,strict,A,q15,What reasonable adjustments can disabled students receive for assessments?,2.0,3.0,3.0,"Still somewhat general, but better supported than exp01."
+exp03,0.5,5,strict,A,q16,How are provisional results and late submission penalties applied before boards?,3.0,3.0,3.0,Correct explanation of provisional results and penalties.
+exp03,0.5,5,strict,A,q17,What is the relationship between the Student Charter and academic regulations?,2.0,3.0,2.0,"Correctly cautious, but the relationship is not strongly defined in the source."
+exp03,0.5,5,strict,A,q18,What attendance or participation rules apply to taught modules?,2.0,3.0,2.0,"Support is partial, though the answer remains careful."
+exp04,0.8,5,strict,A,q01,What happens if coursework is submitted within 24 hours after the deadline?,3.0,3.0,3.0,Correct and fluent while staying grounded.
+exp04,0.8,5,strict,A,q02,What is the penalty if coursework is submitted more than 24 hours late without an extension?,3.0,3.0,3.0,Correct and fluent while staying grounded.
+exp04,0.8,5,strict,A,q03,How do Progression and Award Boards relate to module results and awards?,3.0,3.0,2.0,"Accurate overall, but slightly more generalized in phrasing."
+exp04,0.8,5,strict,A,q04,What English language qualifications does the University accept for admission?,2.0,3.0,3.0,"Still incomplete, though correctly grounded."
+exp04,0.8,5,strict,A,q05,What is Recognition of Prior Certificated Learning (RPCL)?,3.0,3.0,3.0,Correct RPCL definition with good support.
+exp04,0.8,5,strict,A,q06,How is Recognition of Prior Experiential Learning (RPEL) defined?,3.0,3.0,3.0,Correct RPEL definition with good support.
+exp04,0.8,5,strict,A,q07,What are the principles of assessment in relation to intended learning outcomes?,3.0,3.0,3.0,Good coverage of assessment principles.
+exp04,0.8,5,strict,A,q08,What happens if a student arrives late to an examination?,3.0,3.0,3.0,Correct and clearly supported.
+exp04,0.8,5,strict,A,q09,When can a student leave the examination room during an exam?,3.0,3.0,3.0,Correct and clearly supported.
+exp04,0.8,5,strict,A,q10,What is the process for mitigating circumstances and academic appeals after a board decision?,3.0,3.0,2.0,"Mostly strong, but slightly more interpretive at this temperature."
+exp04,0.8,5,strict,A,q11,What is the role of external examiners in progression and award?,2.0,3.0,2.0,"Reasonable answer, though still derived from limited direct support."
+exp04,0.8,5,strict,A,q12,How does the University treat plagiarism and academic misconduct penalties?,3.0,3.0,2.0,"Good explanation, but some detail goes beyond the strongest direct support."
+exp04,0.8,5,strict,A,q13,Can students get an extension for coursework deadlines?,3.0,3.0,3.0,Accurate extension answer with strong support.
+exp04,0.8,5,strict,A,q14,What rules apply to deferring an assessment?,3.0,3.0,3.0,Accurate deferral answer with strong support.
+exp04,0.8,5,strict,A,q15,What reasonable adjustments can disabled students receive for assessments?,2.0,3.0,2.0,"Readable answer, but specific adjustment types remain vague."
+exp04,0.8,5,strict,A,q16,How are provisional results and late submission penalties applied before boards?,2.0,3.0,2.0,"Generally right, but less precise than earlier runs."
+exp04,0.8,5,strict,A,q17,What is the relationship between the Student Charter and academic regulations?,2.0,3.0,2.0,Still cautious and only partly supported.
+exp04,0.8,5,strict,A,q18,What attendance or participation rules apply to taught modules?,2.0,3.0,2.0,"Broad question, with only partial direct support available."
+exp05,0.5,3,semi_flexible,B,q01,What happens if coursework is submitted within 24 hours after the deadline?,3.0,3.0,3.0,Correct answer and clearly grounded.
+exp05,0.5,3,semi_flexible,B,q02,What is the penalty if coursework is submitted more than 24 hours late without an extension?,3.0,3.0,3.0,Correct answer and clearly grounded.
+exp05,0.5,3,semi_flexible,B,q03,How do Progression and Award Boards relate to module results and awards?,2.0,3.0,1.0,Similar to exp01; answer is plausible but not properly grounded.
+exp05,0.5,3,semi_flexible,B,q04,What English language qualifications does the University accept for admission?,2.0,3.0,3.0,Accurate but incomplete; still grounded.
+exp05,0.5,3,semi_flexible,B,q05,What is Recognition of Prior Certificated Learning (RPCL)?,3.0,3.0,3.0,Correct RPCL definition.
+exp05,0.5,3,semi_flexible,B,q06,How is Recognition of Prior Experiential Learning (RPEL) defined?,3.0,3.0,3.0,Correct RPEL definition.
+exp05,0.5,3,semi_flexible,B,q07,What are the principles of assessment in relation to intended learning outcomes?,2.0,3.0,2.0,"Readable, but still too limited for a full principles answer."
+exp05,0.5,3,semi_flexible,B,q08,What happens if a student arrives late to an examination?,3.0,3.0,3.0,Correct and supported.
+exp05,0.5,3,semi_flexible,B,q09,When can a student leave the examination room during an exam?,3.0,3.0,3.0,Correct and supported.
+exp05,0.5,3,semi_flexible,B,q10,What is the process for mitigating circumstances and academic appeals after a board decision?,2.0,3.0,2.0,"Reasonable summary, but not as complete as the stronger retrieval runs."
+exp05,0.5,3,semi_flexible,B,q11,What is the role of external examiners in progression and award?,2.0,3.0,2.0,"Broadly right, though evidence remains limited."
+exp05,0.5,3,semi_flexible,B,q12,How does the University treat plagiarism and academic misconduct penalties?,2.0,3.0,2.0,"Correct in general terms, but penalty detail remains imprecise."
+exp05,0.5,3,semi_flexible,B,q13,Can students get an extension for coursework deadlines?,3.0,3.0,3.0,Strong extension answer.
+exp05,0.5,3,semi_flexible,B,q14,What rules apply to deferring an assessment?,3.0,3.0,3.0,Strong deferral answer.
+exp05,0.5,3,semi_flexible,B,q15,What reasonable adjustments can disabled students receive for assessments?,2.0,3.0,2.0,"Reasonable answer, but still vague on exact adjustment types."
+exp05,0.5,3,semi_flexible,B,q16,How are provisional results and late submission penalties applied before boards?,3.0,3.0,3.0,Correct and grounded.
+exp05,0.5,3,semi_flexible,B,q17,What is the relationship between the Student Charter and academic regulations?,2.0,3.0,2.0,Useful but only partly grounded relationship statement.
+exp05,0.5,3,semi_flexible,B,q18,What attendance or participation rules apply to taught modules?,2.0,2.0,2.0,"More assertive than the support allows, so clarity and grounding are only moderate."
+exp06,0.5,7,loose,C,q01,What happens if coursework is submitted within 24 hours after the deadline?,3.0,3.0,3.0,Correct answer despite broader context window.
+exp06,0.5,7,loose,C,q02,What is the penalty if coursework is submitted more than 24 hours late without an extension?,3.0,3.0,3.0,Correct answer despite broader context window.
+exp06,0.5,7,loose,C,q03,How do Progression and Award Boards relate to module results and awards?,3.0,3.0,2.0,"Improved retrieval, but the looser style adds some extra generalization."
+exp06,0.5,7,loose,C,q04,What English language qualifications does the University accept for admission?,2.0,3.0,3.0,Grounded but still incomplete on exact qualification details.
+exp06,0.5,7,loose,C,q05,What is Recognition of Prior Certificated Learning (RPCL)?,3.0,3.0,3.0,Correct and well supported.
+exp06,0.5,7,loose,C,q06,How is Recognition of Prior Experiential Learning (RPEL) defined?,3.0,3.0,3.0,Correct and well supported.
+exp06,0.5,7,loose,C,q07,What are the principles of assessment in relation to intended learning outcomes?,3.0,3.0,2.0,"Good coverage, though the wider context adds some unnecessary generality."
+exp06,0.5,7,loose,C,q08,What happens if a student arrives late to an examination?,3.0,3.0,3.0,Correct and clearly grounded.
+exp06,0.5,7,loose,C,q09,When can a student leave the examination room during an exam?,3.0,3.0,3.0,Correct and clearly grounded.
+exp06,0.5,7,loose,C,q10,What is the process for mitigating circumstances and academic appeals after a board decision?,3.0,3.0,2.0,"Useful and mostly accurate, but somewhat more interpretive."
+exp06,0.5,7,loose,C,q11,What is the role of external examiners in progression and award?,2.0,3.0,2.0,"Reasonable summary, though still not tightly anchored throughout."
+exp06,0.5,7,loose,C,q12,How does the University treat plagiarism and academic misconduct penalties?,3.0,3.0,2.0,"Strong overall explanation, but some detail goes beyond the clearest support."
+exp06,0.5,7,loose,C,q13,Can students get an extension for coursework deadlines?,3.0,3.0,3.0,Correct and strongly grounded.
+exp06,0.5,7,loose,C,q14,What rules apply to deferring an assessment?,3.0,3.0,3.0,Correct and strongly grounded.
+exp06,0.5,7,loose,C,q15,What reasonable adjustments can disabled students receive for assessments?,2.0,3.0,2.0,"Readable answer, though specific adjustments are still not fully detailed."
+exp06,0.5,7,loose,C,q16,How are provisional results and late submission penalties applied before boards?,2.0,3.0,2.0,"Mostly right, but broader wording reduces precision."
+exp06,0.5,7,loose,C,q17,What is the relationship between the Student Charter and academic regulations?,2.0,3.0,2.0,Still only partly supported by the cited material.
+exp06,0.5,7,loose,C,q18,What attendance or participation rules apply to taught modules?,2.0,3.0,2.0,"Broad and confident, but only partly grounded in direct evidence."

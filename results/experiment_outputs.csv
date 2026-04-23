@@ -1,0 +1,399 @@
+experiment_name,question_id,question,temperature,top_k,prompt_style,retrieved_clauses,answer,similarity_scores
+t0_k3_strict,q01,What happens if coursework is submitted within 24 hours after the deadline?,0.0,3,strict,6.9;;6.8,"Answer: If coursework is submitted within 24 hours after the deadline, the work will be marked, and ten marks will be deducted from the original mark, with a minimum mark of 40% at undergraduate level or 50% at postgraduate level.
+
+Supporting Regulation: Clause 6.8
+
+Additional Notes: None.
+
+Confidence: High",0.8888;0.8614;0.8586
+t0_k3_strict,q02,What is the penalty if coursework is submitted more than 24 hours late without an extension?,0.0,3,strict,6.8;6.9;11.56,"Answer: If coursework is submitted more than 24 hours late without an extension, a mark of zero will be awarded for the work in question.
+
+Supporting Regulation: Clause 6.9
+
+Additional Notes: Clause 11.56 also states that if a claim for an extension is rejected and the student fails to submit the assessment within 24 hours of the original due date, a mark of zero will be awarded.
+
+Confidence: High",0.8794;0.8736;0.8565
+t0_k3_strict,q03,How do Progression and Award Boards relate to module results and awards?,0.0,3,strict,;;,"Answer:  
+Progression and Award Boards are responsible for considering module results and making decisions regarding student progression and awards. They evaluate the performance of students based on the results from modules and determine whether students meet the criteria for progression to the next stage of their studies or for the conferment of awards.
+
+Supporting Regulation:  
+[Clause — | Part 1 | Section 2] and [Clause — | Part 4 | Section 14]
+
+Additional Notes:  
+The specific details regarding the processes and criteria used by Progression and Award Boards are not provided in the excerpts. Therefore, further information may be needed to fully understand their operations and decision-making processes.
+
+Confidence:  
+High, as the answer directly references the relevant clauses regarding the role of Progression and Award Boards in relation to module results and awards.",0.9141;0.8976;0.8953
+t0_k3_strict,q04,What English language qualifications does the University accept for admission?,0.0,3,strict,19.28;3.11;3.10,"Answer:  
+The University of Westminster accepts various English language qualifications for admission, but a full list of these qualifications is available online and may change based on Immigration and Visas Department requirements.
+
+Supporting Regulation:  
+Clause 3.11 states that a full list of the English Language Tests accepted by the University is available online.
+
+Additional Notes:  
+Clause 19.28 indicates that standard entry requirements exist for English Language qualifications, but does not specify which qualifications are accepted. Clause 3.10 emphasizes the need for sufficient command of the language(s) in which the course is taught but does not detail specific qualifications.
+
+Confidence:  
+High, as the information is directly supported by Clause 3.11.",0.8526;0.8466;0.8411
+t0_k3_strict,q05,What is Recognition of Prior Certificated Learning (RPCL)?,0.0,3,strict,;4.16;4.17,"Answer:  
+Recognition of Prior Certificated Learning (RPCL) is defined as the process by which appropriate certificated learning from another institution is accredited towards a University of Westminster award. This prior certification must be provided by a recognised academic institution and should result from a rigorously assessed learning experience.
+
+Supporting Regulation:  
+Clause 4.16 and Clause 4.17.
+
+Additional Notes:  
+The handbook specifies that RPCL applies to certified learning prior to entry into the course of study, and modules taken outside of the course during the student's registration at the University would not normally qualify for RPCL claims.
+
+Confidence:  
+High. The answer is directly supported by the relevant clauses in the regulation excerpts.",0.9647;0.9480;0.9374
+t0_k3_strict,q06,How is Recognition of Prior Experiential Learning (RPEL) defined?,0.0,3,strict,;4.32;,"Answer:  
+The Recognition of Prior Experiential Learning (RPEL) is defined as the process by which appropriate experiential learning is assessed and accredited. Experiential learning includes knowledge and skills acquired through life experience, work experience, and study that are not formally attested through any educational or professional certification. It may also encompass instruction-based learning from any institution that has not been examined in public examination systems.
+
+Supporting Regulation:  
+Clause 4.32 | Part 2 | Section 4
+
+Additional Notes:  
+The handbook does not provide further definitions or details regarding RPEL beyond what is stated in Clause 4.32.
+
+Confidence:  
+High",0.9581;0.9280;0.8986
+t0_k3_strict,q07,What are the principles of assessment in relation to intended learning outcomes?,0.0,3,strict,;;2.30,"Answer:  
+The principles of assessment in relation to intended learning outcomes are that every approved course will have stated aims and intended learning outcomes, which the curriculum, structure, teaching and learning methods, and forms of assessment are designed to fulfill.
+
+Supporting Regulation:  
+Clause 2.30 | Part 1 | Section 2
+
+Additional Notes:  
+The handbook does not provide further details on the specific principles of assessment beyond the connection to intended learning outcomes. 
+
+Confidence:  
+High",0.8959;0.8946;0.8439
+t0_k3_strict,q08,What happens if a student arrives late to an examination?,0.0,3,strict,7.37;7.34;7.18,"Answer: If a student arrives late to an examination, the invigilator will note the time of their arrival on the student attendance sheet. Students can be admitted up to 30 minutes after the start of the examination, but no extra time will be allowed for those who arrive later than the start time.
+
+Supporting Regulation: 
+- Clause 7.37: ""Where a student arrives late, the invigilator will note the time of their arrival on the student attendance sheet.""
+- Clause 7.18: ""Students can be admitted up to 30 minutes after the start of the examination. No extra time will be allowed to a student who arrives later than the start time of the examination.""
+
+Additional Notes: None.
+Confidence: High",0.8696;0.8570;0.8559
+t0_k3_strict,q09,When can a student leave the examination room during an exam?,0.0,3,strict,7.36;7.19;7.18,"Answer: A student can leave the examination room only after 30 minutes have passed since the start of the examination, and they must obtain express permission from the invigilator to do so. 
+
+Supporting Regulation: 
+- Clause 7.36: ""No student will be permitted to leave the examination room (other than where accompanied by an Invigilator) until 30 minutes after the start of the examination.""
+- Clause 7.19: ""A student who wishes to temporarily leave the examination room must first obtain the express permission of the invigilator.""
+
+Additional Notes: Clause 7.18 states that no student may leave the examination during the first 30 minutes or the last 15 minutes of the examination, except under exceptional circumstances with invigilator instructions. 
+
+Confidence: High",0.9069;0.8905;0.8743
+t0_k3_strict,q10,What is the process for mitigating circumstances and academic appeals after a board decision?,0.0,3,strict,11.43;16.29;11.16,"Answer: The process for mitigating circumstances involves the Mitigating Circumstances Boards, which are responsible for considering claims under the delegated authority of the relevant Progression and Award Board (Clause 11.16). However, mitigating circumstances cannot be used as grounds for an academic appeal following a board decision (Clause 16.29). Students wishing to have mitigating circumstances considered after an assessment decision must refer to the University’s Mitigating Circumstances Regulations (Section 11).
+
+Supporting Regulation: 
+- Clause 11.16
+- Clause 16.29
+
+Additional Notes: The handbook does not provide a detailed step-by-step process for submitting mitigating circumstances claims or the specific academic appeal process after a board decision. 
+
+Confidence: High",0.8813;0.8768;0.8720
+t0_k3_strict,q11,What is the role of external examiners in progression and award?,0.0,3,strict,;;13.16,"Answer:  
+The role of external examiners, specifically the Chief External Examiners, in the Progression and Award Boards is to ensure the fair and equitable application of the University's regulations on credit accumulation and the course-specific regulations for each award. They are involved in decisions regarding the award of qualifications, including progression, classification of awards, and exclusions. However, they are not to provide assessment judgments in individual cases or act as additional markers. Chief External Examiners participate in all activities of the Progression and Award Boards, including the awarding of intermediate awards, and are also expected to provide feedback on the assessment process and procedures.
+
+Supporting Regulation:  
+Clause 13.16 | Part 4 | Section 13
+
+Additional Notes:  
+The handbook does not provide further details on the specific processes or additional roles of external examiners beyond what is stated in Clause 13.16. 
+
+Confidence:  
+High",0.9675;0.9132;0.9131
+t0_k3_strict,q12,How does the University treat plagiarism and academic misconduct penalties?,0.0,3,strict,;10.55;10.41,"Answer:  
+The University treats plagiarism and academic misconduct through a structured process that involves an Academic Misconduct Meeting. The outcomes of this meeting can include:  
+a) No case to answer, allowing the work to be marked normally;  
+b) A determination that the work reflects poor scholarship but does not constitute academic misconduct, leading to normal marking;  
+c) Confirmation of academic misconduct with the original penalty upheld;  
+d) A reduced penalty due to mitigating factors;  
+e) A more severe penalty than originally imposed, within the limits of Category 1 penalties; or  
+f) A reassessment of the seriousness of the misconduct based on new evidence.
+
+Supporting Regulation:  
+Clause 10.55 outlines the possible outcomes of an Academic Misconduct Meeting, while Clause 10.41 defines plagiarism and the expectations for original work and proper citation.
+
+Additional Notes:  
+The handbook does not provide specific details on the exact penalties or the process for determining mitigating factors beyond what is stated in Clause 10.55. 
+
+Confidence:  
+High, as the answer directly references specific clauses that detail the treatment of plagiarism and academic misconduct.",0.8562;0.8560;0.8494
+t0_k3_strict,q13,Can students get an extension for coursework deadlines?,0.0,3,strict,11.6;11.19;11.50,"Answer: Yes, students can get an extension for coursework deadlines. An extension allows a student an additional five working days beyond the published due date to submit the assessment component without penalty (Clause 11.6). Additionally, students with a disability who have agreed Reasonable Adjustments that include an extension are not required to submit a mitigating circumstance claim for such extensions (Clause 11.19). If a mitigating circumstance claim for an extension is accepted, the coursework must be submitted no later than five working days after the original due date (Clause 11.50).
+
+Supporting Regulation: 
+- Clause 11.6
+- Clause 11.19
+- Clause 11.50
+
+Additional Notes: None.  
+Confidence: High",0.8898;0.8783;0.8717
+t0_k3_strict,q14,What rules apply to deferring an assessment?,0.0,3,strict,;11.58;11.60,"Answer:  
+The rules for deferring an assessment are outlined in clauses 11.58 and 11.60. If a mitigating circumstance claim for a deferral is accepted, the student will be deferred in the relevant assessment components and will typically take the assessments without attendance during the Referral/Deferral period or the following academic year, depending on when the deferral occurs (clause 11.58). Conversely, if a deferral claim is rejected and the student has not submitted the coursework or attended the assessment, a mark of 0 will be awarded (clause 11.60).
+
+Supporting Regulation:  
+Clause 11.58, Clause 11.60
+
+Additional Notes:  
+The handbook does not provide additional details on the process for submitting a deferral claim or the criteria for acceptance or rejection of such claims. 
+
+Confidence:  
+High",0.8691;0.8529;0.8518
+t0_k3_strict,q15,What reasonable adjustments can disabled students receive for assessments?,0.0,3,strict,11.19;8.7;11.20,"Answer: Disabled students can receive reasonable adjustments for assessments, which may include extensions to coursework submission deadlines. If these adjustments are agreed upon, students are not required to submit a mitigating circumstance claim for such extensions. Additionally, students may apply for further extensions or deferrals through the Mitigating Circumstances process if certain conditions are met, such as the University being unable to provide all the support detailed in the Learning Support Entitlements.
+
+Supporting Regulation: 
+- Clause 11.19: ""Students with a disability for whom agreed Reasonable Adjustments are in place, and which include an extension to coursework submission deadlines, are not required to submit a mitigating circumstance claim in respect of such extensions.""
+- Clause 11.20: ""Students with a disability for whom agreed Reasonable Adjustments are in place may apply for an additional extension or a deferral via the Mitigating Circumstances process where: a) the University has been unable to provide all the support detailed in the Learning Support Entitlements...""
+
+Additional Notes: Clause 8.7 mentions the availability of the Reasonable Adjustment Form but does not specify the types of adjustments that can be made. The handbook does not provide further details on other specific reasonable adjustments beyond what is mentioned in clauses 11.19 and 11.20. 
+
+Confidence: High",0.8711;0.8711;0.8632
+t0_k3_strict,q16,How are provisional results and late submission penalties applied before boards?,0.0,3,strict,15.1;;6.8,"Answer: Provisional results are marks that are notified to students and are subject to change after scrutiny by an external examiner before being considered at the relevant Progression and Award Board. These provisional results may also incur penalties for late coursework submission. If coursework is submitted late but within 24 hours of the deadline, a penalty of ten marks will be deducted from the original mark, with a minimum mark of 40% for undergraduate and 50% for postgraduate levels.
+
+Supporting Regulation: 
+- Clause 15.1: Provisional results are subject to change and may incur penalties for late submission.
+- Clause 6.8: Details the penalty for late submission of coursework.
+
+Additional Notes: The handbook does not provide further details on how provisional results and late submission penalties are specifically applied before boards beyond what is stated in the relevant clauses. 
+
+Confidence: High",0.8672;0.8501;0.8437
+t0_k3_strict,q17,What is the relationship between the Student Charter and academic regulations?,0.0,3,strict,1.9;1.3;10.2,"Answer:  
+The relationship between the Student Charter and academic regulations is not explicitly defined in the provided excerpts. However, the Student Charter is listed as one of the documents that contain valuable information for students, indicating that it is relevant to the university's regulatory framework. Students are responsible for being familiar with all university regulations, which implies that the Student Charter may complement the academic regulations.
+
+Supporting Regulation:  
+Clause 1.3 states that the Student Charter is one of several documents containing valuable information that students should be familiar with.
+
+Additional Notes:  
+The excerpts do not provide specific details on how the Student Charter interacts with or influences the academic regulations. Therefore, the exact nature of their relationship remains unclear based on the provided information.
+
+Confidence:  
+Moderate. The answer is based on the available clauses, but the relationship is not explicitly detailed in the regulations.",0.8442;0.8266;0.8250
+t0_k3_strict,q18,What attendance or participation rules apply to taught modules?,0.0,3,strict,;11.59;6.6,"Answer: The handbook does not explicitly outline general attendance or participation rules for taught modules. However, it does mention that if a mitigating circumstance claim is accepted for a deferral of a whole module, the student must attend all timetabled teaching and learning events associated with the next delivery of that module (Clause 11.59). Additionally, the Module Leader may set requirements for submission of work through text matching software, and failure to comply may result in the work not being marked (Clause 6.6).
+
+Supporting Regulation: 
+- Clause 11.59 | Part 3 | Section 11
+- Clause 6.6 | Part 3 | Section 6
+
+Additional Notes: The handbook is silent on any other specific attendance or participation rules for taught modules beyond the mentioned clauses. 
+
+Confidence: High",0.8343;0.8329;0.8236
+t0_k3_semi_flexible,q01,What happens if coursework is submitted within 24 hours after the deadline?,0.0,3,semi_flexible,6.9;;6.8,"Answer:  
+If coursework is submitted within 24 hours after the specified deadline, the work will be marked, but a penalty of ten marks will be deducted from the original mark. This deduction will not reduce the mark below the minimum pass mark, which is 40% for undergraduate students and 50% for postgraduate students.
+
+Supporting Regulation:  
+Clause 6.8 states that late submissions within 24 hours will incur a ten-mark penalty, while Clause 6.9 specifies that submissions more than 24 hours late will receive a mark of zero.
+
+Additional Notes:  
+The regulations do not specify any additional conditions or exceptions for submissions within the 24-hour window beyond the stated penalties.
+
+Confidence:  
+High",0.8888;0.8614;0.8586
+t0_k3_semi_flexible,q02,What is the penalty if coursework is submitted more than 24 hours late without an extension?,0.0,3,semi_flexible,6.8;6.9;11.56,"Answer:  
+If coursework is submitted more than 24 hours late without an extension, a mark of zero will be awarded for that work.
+
+Supporting Regulation:  
+Clause 6.9 states that if students submit coursework more than 24 hours after the specified deadline, a mark of zero will be awarded for the work in question.
+
+Additional Notes:  
+There are no additional penalties or conditions mentioned for submissions more than 24 hours late without an extension. The regulation is clear in stating that the penalty is a mark of zero.
+
+Confidence:  
+High",0.8794;0.8736;0.8565
+t0_k3_semi_flexible,q03,How do Progression and Award Boards relate to module results and awards?,0.0,3,semi_flexible,;;,"Answer:  
+Progression and Award Boards are responsible for reviewing module results and making decisions regarding student progression and awards. They ensure that the assessment outcomes align with the academic regulations and standards set by the university. The boards evaluate the performance of students based on their module results and determine whether students can progress to the next stage of their studies or qualify for awards.
+
+Supporting Regulation:  
+[Clause — | Part 1 | Section 2] and [Clause — | Part 4 | Section 14]
+
+Additional Notes:  
+The specific details regarding the terms of reference and membership of the Progression and Award Boards are mentioned but not elaborated in the provided excerpts. Therefore, it is unclear how these aspects directly influence the decision-making process regarding module results and awards.
+
+Confidence:  
+High",0.9141;0.8976;0.8953
+t0_k3_semi_flexible,q04,What English language qualifications does the University accept for admission?,0.0,3,semi_flexible,19.28;3.11;3.10,"Answer:  
+The University of Westminster accepts various English language qualifications for admission, but a specific list of these qualifications is available online. It is important to note that these requirements may change based on the regulations of the Immigration and Visas Department. Additionally, while there are standard entry requirements, individual colleges or courses may have their own specific requirements that must also be met.
+
+Supporting Regulation:  
+- Clause 19.28: Standard entry requirements exist for English Language qualifications, with potential additional course-specific requirements.  
+- Clause 3.11: A full list of accepted English Language Tests is available online and may change due to Immigration and Visas Department requirements.  
+- Clause 3.10: Students must have sufficient command of the language(s) in which the course is taught to meet entry requirements.
+
+Additional Notes:  
+The specific qualifications accepted are not detailed in the excerpts provided, and it is recommended to refer to the online resources mentioned for the most accurate and updated information.
+
+Confidence:  
+High",0.8526;0.8466;0.8411
+t0_k3_semi_flexible,q05,What is Recognition of Prior Certificated Learning (RPCL)?,0.0,3,semi_flexible,;4.16;4.17,"Answer:  
+Recognition of Prior Certificated Learning (RPCL) is the process through which appropriate certificated learning from another institution is accredited towards a University of Westminster award. This prior certification must come from a recognized academic institution and result from a rigorously assessed learning experience. It is important to note that credit for learning gained from uncertificated courses, or where the certificate is solely for attendance, should be claimed through a different route known as Recognition of Prior Experiential Learning (RPEL).
+
+Supporting Regulation:  
+Clause 4.16 and Clause 4.17 outline the definitions and conditions for RPCL, specifying that it pertains to certified learning completed before entering the course of study and that modules taken during the student's registration at the University do not qualify for RPCL claims.
+
+Additional Notes:  
+The excerpts do not clarify the specific procedures for applying for RPCL or the criteria for what constitutes ""appropriate certificated learning."" There is also no mention of any limits on the amount of credit that can be claimed through RPCL.
+
+Confidence:  
+High",0.9647;0.9480;0.9374
+t0_k3_semi_flexible,q06,How is Recognition of Prior Experiential Learning (RPEL) defined?,0.0,3,semi_flexible,;4.32;,"Answer:  
+Recognition of Prior Experiential Learning (RPEL) is defined as the process of assessing and accrediting appropriate experiential learning. This type of learning encompasses knowledge and skills gained through life experiences, work experiences, and study that are not formally recognized by any educational or professional certification. Additionally, RPEL may include instruction-based learning from any institution that has not been evaluated through public examination systems.
+
+Supporting Regulation:  
+Clause 4.32 | Part 2 | Section 4
+
+Additional Notes:  
+The excerpts do not provide further details on the specific processes or criteria for the assessment and accreditation of RPEL. There is also a distinction made between RPEL and Recognition of Prior Learning (RPL), which includes both experiential and certificated learning.
+
+Confidence:  
+High",0.9581;0.9280;0.8986
+t0_k3_semi_flexible,q07,What are the principles of assessment in relation to intended learning outcomes?,0.0,3,semi_flexible,;;2.30,"Answer:  
+The principles of assessment in relation to intended learning outcomes are centered on ensuring that every approved course has clearly defined aims and intended learning outcomes. The curriculum, structure, teaching and learning methods, as well as the forms of assessment, are all designed to fulfill these intended learning outcomes.
+
+Supporting Regulation:  
+Clause 2.30 | Part 1 | Section 2
+
+Additional Notes:  
+The excerpts do not provide detailed principles of assessment beyond the connection to intended learning outcomes. It is unclear if there are additional specific principles outlined elsewhere in the regulations.
+
+Confidence:  
+High",0.8959;0.8946;0.8439
+t0_k3_semi_flexible,q08,What happens if a student arrives late to an examination?,0.0,3,semi_flexible,7.37;7.34;7.18,"Answer:  
+If a student arrives late to an examination, the invigilator will record the time of their arrival on the student attendance sheet. Students are permitted to enter the examination up to 30 minutes after it has started; however, no additional time will be granted to those who arrive after the examination has begun.
+
+Supporting Regulation:  
+- Clause 7.37: ""Where a student arrives late, the invigilator will note the time of their arrival on the student attendance sheet.""  
+- Clause 7.18: ""Students can be admitted up to 30 minutes after the start of the examination. No extra time will be allowed to a student who arrives later than the start time of the examination.""
+
+Additional Notes:  
+The regulations do not specify any consequences for arriving late beyond the recording of the time and the lack of extra time granted. It is unclear if there are any further implications for the student's performance or assessment.
+
+Confidence:  
+High",0.8696;0.8570;0.8559
+t0_k3_semi_flexible,q09,When can a student leave the examination room during an exam?,0.0,3,semi_flexible,7.36;7.19;7.18,"Answer:  
+A student may leave the examination room only after 30 minutes have passed since the start of the examination, and they must obtain express permission from an invigilator to do so. If a student leaves without this permission, they will be considered to have withdrawn from the examination and will not be allowed to re-enter. Additionally, students are not permitted to leave during the first 30 minutes or the last 15 minutes of the examination, except in exceptional circumstances as directed by an invigilator.
+
+Supporting Regulation:  
+- Clause 7.36: No student will be permitted to leave the examination room until 30 minutes after the start of the examination.  
+- Clause 7.19: A student must obtain express permission from the invigilator to temporarily leave the examination room.  
+- Clause 7.18: Students cannot leave during the first 30 minutes or the last 15 minutes of the examination, except under exceptional circumstances.
+
+Additional Notes:  
+The regulations specify the conditions under which a student can leave the examination room, but they do not detail what constitutes ""exceptional circumstances."" 
+
+Confidence:  
+High",0.9069;0.8905;0.8743
+t0_k3_semi_flexible,q10,What is the process for mitigating circumstances and academic appeals after a board decision?,0.0,3,semi_flexible,11.43;16.29;11.16,"Answer:  
+The process for mitigating circumstances involves the Mitigating Circumstances Boards, which are responsible for considering claims related to mitigating circumstances. These boards operate under the authority of the relevant Progression and Award Board, and their decisions are subject to audits to ensure consistency and appropriateness (Clause 11.43, Clause 11.16). However, it is important to note that mitigating circumstances cannot be used as grounds for an academic appeal. If a student wishes to have mitigating circumstances considered after a decision by a Progression and Award Board, they must refer to the University’s Mitigating Circumstances Regulations (Clause 16.29).
+
+Supporting Regulation:  
+- Clause 11.43: Mitigating Circumstances Boards will audit claims and decisions.  
+- Clause 16.29: Mitigating circumstances are not grounds for an academic appeal.  
+- Clause 11.16: Responsibility for claims rests with the Mitigating Circumstances Boards.
+
+Additional Notes:  
+The excerpts do not specify the detailed steps involved in submitting a mitigating circumstances claim or the academic appeal process itself. They only clarify the roles of the boards and the relationship between mitigating circumstances and academic appeals.
+
+Confidence:  
+High",0.8813;0.8768;0.8720
+t0_k3_semi_flexible,q11,What is the role of external examiners in progression and award?,0.0,3,semi_flexible,;;13.16,"Answer:  
+The role of external examiners, particularly the Chief External Examiners, in the Progression and Award Boards is to ensure that the University's regulations regarding credit accumulation and course-specific regulations are applied fairly and equitably when making decisions about student qualifications. This includes overseeing decisions related to student progression, the classification of awards, and exclusions. However, Chief External Examiners are not involved in making assessment judgments for individual cases or acting as additional markers. They participate in all activities of the Progression and Award Boards, including the awarding of intermediate qualifications, and provide feedback on the assessment processes and procedures.
+
+Supporting Regulation:  
+Clause 13.16 | Part 4 | Section 13
+
+Additional Notes:  
+The excerpts do not specify the exact nature of the external examiners' involvement in the Subject Area process or any additional roles they may have outside of the Progression and Award Boards. 
+
+Confidence:  
+High",0.9675;0.9132;0.9131
+t0_k3_semi_flexible,q12,How does the University treat plagiarism and academic misconduct penalties?,0.0,3,semi_flexible,;10.55;10.41,"Answer:  
+The University of Westminster treats plagiarism and academic misconduct seriously, with a structured process for determining penalties. Following an Academic Misconduct Meeting, the College Teaching Committee or a nominee will assess the situation and may conclude one of several outcomes:  
+a) No case to answer, allowing the work to be marked normally;  
+b) The work reflects poor scholarship but is not classified as academic misconduct, leading to normal marking;  
+c) The student is found to have committed academic misconduct, and the original penalty is upheld;  
+d) A reduced penalty is imposed due to mitigating factors;  
+e) A more severe penalty is applied, but it must not exceed the maximum for a Category 1 penalty;  
+f) New evidence suggests the misconduct is more serious than initially believed, prompting further action (Clause 10.55).
+
+Supporting Regulation:  
+Clause 10.41 emphasizes the importance of originality in student work and the proper acknowledgment of sources to avoid plagiarism. It outlines that extensive quoting, close paraphrasing, or using another's ideas without proper attribution may constitute plagiarism, which is a form of academic misconduct.
+
+Additional Notes:  
+The excerpts do not specify the exact penalties or the process for appealing decisions made regarding academic misconduct. The details on what constitutes ""mitigating factors"" or the specifics of the ""Table of Penalties"" are also not provided.
+
+Confidence:  
+High",0.8562;0.8560;0.8494
+t0_k3_semi_flexible,q13,Can students get an extension for coursework deadlines?,0.0,3,semi_flexible,11.6;11.19;11.50,"Answer:  
+Yes, students can get an extension for coursework deadlines. An extension allows a student an additional five working days beyond the published due date to submit their assessment without penalty (Clause 11.6). Additionally, students with a disability who have agreed Reasonable Adjustments that include an extension are not required to submit a mitigating circumstance claim for such extensions (Clause 11.19). If a mitigating circumstance claim for an extension is accepted, the student must submit the coursework no later than five working days after the original due date (Clause 11.50).
+
+Supporting Regulation:  
+Clause 11.6, Clause 11.19, Clause 11.50
+
+Additional Notes:  
+The excerpts do not specify the process for applying for an extension or the criteria for granting one beyond what is mentioned. 
+
+Confidence:  
+High",0.8898;0.8783;0.8717
+t0_k3_semi_flexible,q14,What rules apply to deferring an assessment?,0.0,3,semi_flexible,;11.58;11.60,"Answer:  
+To defer an assessment, a student must submit a claim for mitigating circumstances. If this claim is accepted, the student will be deferred in the relevant assessment components. For deferrals occurring during Assessment Period 2, the student is typically required to take the assessments without attendance during Assessment Period 3, which is designated as the Referral/Deferral period. If the deferral occurs during Assessment Period 3, the student will usually need to take the assessments for that module without attendance in the following academic year (Clause 11.58). 
+
+If a deferral claim is rejected and the student has not submitted the coursework or attended the scheduled assessment, a mark of 0 (zero) will be awarded for those assessments, following the standard protocols for non-submission and non-attendance (Clause 11.60).
+
+Supporting Regulation:  
+Clause 11.58 and Clause 11.60
+
+Additional Notes:  
+The excerpts do not specify the process for submitting a mitigating circumstance claim or the criteria for acceptance or rejection of such claims. 
+
+Confidence:  
+High",0.8691;0.8529;0.8518
+t0_k3_semi_flexible,q15,What reasonable adjustments can disabled students receive for assessments?,0.0,3,semi_flexible,11.19;8.7;11.20,"Answer:  
+Disabled students can receive reasonable adjustments for assessments, which may include extensions to coursework submission deadlines. If these adjustments are agreed upon, students are not required to submit a mitigating circumstance claim for such extensions (Clause 11.19). Additionally, students may apply for further extensions or deferrals through the Mitigating Circumstances process if certain conditions are met, such as the University being unable to provide all the necessary support or if the Reasonable Adjustment Form can be used as evidence for a mitigating circumstance claim (Clause 11.20).
+
+Supporting Regulation:  
+- Clause 11.19: Students with a disability for whom agreed Reasonable Adjustments are in place, and which include an extension to coursework submission deadlines, are not required to submit a mitigating circumstance claim in respect of such extensions.  
+- Clause 11.20: Students with a disability for whom agreed Reasonable Adjustments are in place may apply for an additional extension or a deferral via the Mitigating Circumstances process under specific conditions.
+
+Additional Notes:  
+The excerpts do not specify all types of reasonable adjustments available, nor do they detail the process for agreeing upon these adjustments. The focus is primarily on extensions and the conditions under which further extensions or deferrals can be requested.
+
+Confidence:  
+High",0.8711;0.8711;0.8632
+t0_k3_semi_flexible,q16,How are provisional results and late submission penalties applied before boards?,0.0,3,semi_flexible,15.1;;6.8,"Answer:  
+Provisional results are marks provided to students that include written comments and provisional percentage marks. These results are recorded after internal moderation but are subject to change following scrutiny by an external examiner before being considered at the relevant Progression and Award Board (Clause 15.1). Additionally, provisional results may incur penalties for late coursework submissions (Clause 15.1). 
+
+For late submissions, if coursework is submitted within 24 hours of the deadline, a penalty of ten marks is deducted from the original mark, with a minimum mark set at the pass threshold (40% for undergraduate and 50% for postgraduate levels) (Clause 6.8). This penalty applies even to students who have received extensions due to reasonable adjustments or accepted mitigating circumstances.
+
+Supporting Regulation:  
+Clause 15.1 and Clause 6.8.
+
+Additional Notes:  
+The excerpts do not specify how provisional results are finalized or the exact process for applying late submission penalties before boards, only that provisional results can be subject to penalties and are subject to change. 
+
+Confidence:  
+High.",0.8672;0.8501;0.8437
+t0_k3_semi_flexible,q17,What is the relationship between the Student Charter and academic regulations?,0.0,3,semi_flexible,1.9;1.3;10.2,"Answer:  
+The Student Charter is one of several documents that provide valuable information regarding university regulations, including academic regulations. While the academic regulations are specifically reviewed and approved by the Teaching Committee and Academic Council (Clause 1.9), the Student Charter serves as a complementary resource that students are encouraged to read and understand (Clause 1.3). However, the excerpts do not explicitly detail how the Student Charter directly interacts with or influences the academic regulations.
+
+Supporting Regulation:  
+- Clause 1.9: Academic regulations are reviewed by the Teaching Committee and approved by Academic Council.  
+- Clause 1.3: The Student Charter is among several documents that students should familiarize themselves with regarding university regulations.
+
+Additional Notes:  
+The relationship between the Student Charter and academic regulations is not explicitly defined in the provided excerpts. It is unclear whether the Student Charter has any binding authority or how it may influence the academic regulations.
+
+Confidence:  
+Moderate",0.8442;0.8266;0.8250
+t0_k3_semi_flexible,q18,What attendance or participation rules apply to taught modules?,0.0,3,semi_flexible,;11.59;6.6,"Answer:  
+The attendance and participation rules for taught modules are not explicitly detailed in the provided excerpts. However, it is indicated that if a student has an accepted mitigating circumstance claim for deferring a whole module, they must re-attend all timetabled teaching and learning events associated with the module's next delivery (Clause 11.59). This suggests that attendance is a requirement for students who are re-taking a module due to deferral. 
+
+Supporting Regulation:  
+- Clause 11.59 | Part 3 | Section 11: Students must attend all timetabled teaching and learning events when re-taking a module after a deferral.
+
+Additional Notes:  
+The excerpts do not provide comprehensive rules regarding attendance or participation for all taught modules, nor do they specify any general attendance requirements outside of the context of deferral. 
+
+Confidence:  
+Moderate. The information is based on the provided excerpts, but the overall attendance policy for taught modules is not fully outlined.",0.8343;0.8329;0.8236
