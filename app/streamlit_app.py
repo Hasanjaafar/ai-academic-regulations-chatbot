@@ -30,14 +30,32 @@ CHROMA_PATH = PROJECT_ROOT / "data" / "chroma_db_handbook"
 CHUNKS_JSON = PROJECT_ROOT / "data" / "processed" / "academic_handbook_2025_26_chunks.json"
 
 # ------------------------------
-# 0) BOOTSTRAP
+# 0) BOOTSTRAP: Load API Key
 # ------------------------------
 load_dotenv()
-try:
-    if not os.getenv("OPENAI_API_KEY") and "OPENAI_API_KEY" in st.secrets:
-        os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
-except Exception:
-    pass
+
+@st.cache_resource(show_spinner=False)
+def get_openai_client():
+    # Priority 1: Environment Variable (Local .env)
+    api_key = os.getenv("OPENAI_API_KEY")
+    
+    # Priority 2: Streamlit Secrets (Cloud)
+    if not api_key and "OPENAI_API_KEY" in st.secrets:
+        api_key = st.secrets["OPENAI_API_KEY"]
+    
+    if not api_key:
+        st.error("No OpenAI API key found. Please set OPENAI_API_KEY in your Streamlit Secrets or .env file.")
+        st.stop()
+    
+    try:
+        # Initialize with explicit key to avoid environment lookup issues
+        return OpenAI(api_key=api_key)
+    except TypeError as e:
+        if "proxies" in str(e):
+            # Fallback for the known Streamlit/Httpx proxy conflict
+            import httpx
+            return OpenAI(api_key=api_key, http_client=httpx.Client(proxy=None))
+        raise e
 
 OPENAI_MODEL_DEFAULT = "gpt-4o-mini"
 
@@ -61,14 +79,6 @@ st.set_page_config(
 )
 
 inject_app_theme()
-
-@st.cache_resource(show_spinner=False)
-def get_openai_client():
-    try:
-        return OpenAI()
-    except Exception as e:
-        st.error("No OpenAI API key found. Set OPENAI_API_KEY in your environment or .env file.")
-        raise e
 
 
 @st.cache_resource(show_spinner=False)
