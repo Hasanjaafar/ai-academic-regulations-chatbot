@@ -33,6 +33,12 @@ CHUNKS_JSON = PROJECT_ROOT / "data" / "processed" / "academic_handbook_2025_26_c
 # 0) BOOTSTRAP
 # ------------------------------
 load_dotenv()
+try:
+    if not os.getenv("OPENAI_API_KEY") and "OPENAI_API_KEY" in st.secrets:
+        os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
+except Exception:
+    pass
+
 OPENAI_MODEL_DEFAULT = "gpt-4o-mini"
 
 EMBED_MODEL_NAME = "intfloat/e5-base-v2"

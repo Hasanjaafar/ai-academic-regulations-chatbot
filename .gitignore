@@ -18,9 +18,12 @@ logs/
 .ipynb_checkpoints/
 
 data/chroma_db*/
+!data/chroma_db_handbook/
+!data/chroma_db_handbook/**
 data/embeddings/
 *.sqlite
 *.sqlite3
+!data/chroma_db_handbook/**/*.sqlite3
 *.db
 *.npy
 
